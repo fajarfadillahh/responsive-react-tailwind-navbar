@@ -1,0 +1,15 @@
+/* ===== FONT GOOGLE ===== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* ===== REUSABLES CLASS ===== */
+@layer components {
+  /* container class */
+  .container {
+    @apply max-w-[1280px] w-[calc(100%-3rem)] mx-auto;
+  }
+
+  /* button class */
+  .button {
+    @apply h-[52px] flex justify-center items-center py-4 px-8 bg-purple-600 rounded-lg text-[15px] text-white font-semibold;
+  }
+}
